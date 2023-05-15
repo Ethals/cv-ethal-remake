@@ -42,9 +42,12 @@
 		</script>
 
 		<!-- bagian template layout -->
-		<!-- <link rel="stylesheet" type="text/css" href="./css/3d_card.css" media="screen" /> -->
 		<link rel="stylesheet" type="text/css" href="./css/adminx.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="./css/adminx_edit.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="./css/timeline.css" media="screen" />
+
+		<!-- Scroll animation -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		
 	</head>
 	<body>
@@ -61,5 +64,18 @@
 	<!-- ion icon -->
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+	<!-- Scroll animation -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script> AOS.init(); </script>
+
+	<!-- Skills -->
+	<!-- <script>
+		$('.skill').waypoint(function () {
+			$('.progress .progress-bar').each(function () {
+				$(this).css("width", $(this).attr("aria-valuenow") + '%');
+			});
+		}, {offset: '80%'});
+	</script> -->
 	</body>
 </html>

@@ -11,6 +11,10 @@ import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import FeedIcon from '@mui/icons-material/Feed';
 import RecentActorsIcon from '@mui/icons-material/RecentActors';
 import CopyrightIcon from '@mui/icons-material/Copyright';  
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
+import PinchIcon from '@mui/icons-material/Pinch';
+import SchoolIcon from '@mui/icons-material/School';
 
 import { FaBars }from "react-icons/fa";
 
@@ -18,19 +22,29 @@ const Layouts = ({children}) => {
 	const [isExpanded, setExpendState] = useState(false);
 	const menuItems = [
 		{
-			link:"/home",
-			text: "Dashboard",
+			link:"/",
+			text: "Home",
 			icon: <CottageIcon/>
 		},
 		{
-			link:"/about",
-			text: "Admin Profile",
+			link:"/tentang",
+			text: "Tentang",
 			icon: <PersonIcon/>,
 		},
 		{
-			link:"/service",
-			text: "Service",
-			icon: <SettingsIcon/>,
+			link:"/skill",
+			text: "Skill",
+			icon: <PinchIcon/>,
+		},
+		{
+			link:"/pengalaman",
+			text: "Pengalaman",
+			icon: <AssignmentIndIcon/>,
+		},
+		{
+			link:"/pendidikan",
+			text: "Pendidikan",
+			icon: <SchoolIcon/>,
 		},
 		{
 			link:"/porto",
@@ -38,13 +52,13 @@ const Layouts = ({children}) => {
 			icon: <BusinessCenterIcon/>,
 		},
 		{
-			link:"/news",
-			text: "News",
-			icon: <BusinessCenterIcon/>,
+			link:"/pemcapaian",
+			text: "Pencapaian",
+			icon: <EmojiEventsIcon/>,
 		},
 		{
-			link:"/contact",
-			text: "Contact",
+			link:"/kontak",
+			text: "Kontak",
 			icon: <RecentActorsIcon/>,
 		},
 	];
@@ -85,7 +99,7 @@ const Layouts = ({children}) => {
 
 			<div class="adminx-content flex">
 				<div class="container-fluid flex">
-					<main className="my-auto">{children}</main>
+					<main className="flex">{children}</main>
 				</div>
 			</div>
 			

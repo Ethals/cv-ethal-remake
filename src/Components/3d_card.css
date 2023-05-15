@@ -40,11 +40,12 @@ body {
 }
 
 .card-3d:hover .wrapper {
-    transform: perspective(900px) translateY(15%) rotateX(55deg) translateZ(0);
+    transform: perspective(900px) translateY(15%) rotateX(65deg) translateZ(0);
     box-shadow: 2px 35px 32px -8px #111111c4;
     -webkit-box-shadow: 2px 35px 32px -8px #111111c4;
     -moz-box-shadow: 2px 35px 32px -8px #111111c4;
     /* background-color: rgba(12, 13, 19, 0.5) 68%, */
+    opacity : 0.2;
 }
 
 .wrapper::before,

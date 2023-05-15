@@ -8,11 +8,11 @@
 	--dark: #111111;
 }
 
-body {
-    /* background-color: #f2edf3;
+/* body {
+    background-color: #f2edf3;
      font-family: "Sofia Sans", sans-serif;
-     color: #0e0e52; */
-}
+     color: #0e0e52;
+} */
 
 @media (max-width: 576px) {
     body {
@@ -85,6 +85,16 @@ body {
     font-size: 24px !important;
     color: var(--realWhite);
 }
+
+.link-icon-social:hover {
+    transform: translateY(-5px);
+}
+
+ion-icon:hover {
+    transform: translateY(-5px);
+    transition: all 250ms ease;
+}
+
 /* .sidebar-sub-nav {
      background-color: white;
 } */
@@ -493,3 +503,63 @@ input:checked ~ .slider-card {
 input:checked ~ .slider {
     background-color: #9ed99c;
 }
+
+/* Toggle Switch ====================================== */
+
+.title-halaman {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .title-halaman::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -4px;
+    left: 0;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+  }
+  
+  .title-halaman::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 15px;
+    border-radius: 2px;
+    background: var(--light);
+  }
+
+  /* Garis ====================================== */
+
+  .border-bottom-line {
+    border-bottom: 1px solid #dfdfdf;  
+    border-bottom-color: hsla(0,0%,100%,.1);
+}
+
+  /* progress bar ====================================== */
+
+.progress {
+    height: 5px;
+  }
+  
+  .progress .progress-bar {
+    /* width: 0px; */
+    transition: 10s;
+  }
+
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00B87B;
+    transition: width 0.6s ease;
+  }

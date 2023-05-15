@@ -9,7 +9,7 @@ import Typed from "react-typed";
 
 const Home = () => {
 	return (
-		<div className='mx-16 flex gap-x-6'>
+		<div className='my-auto mx-16 flex gap-x-6' data-aos="fade-right" data-aos-duration="1200">
 			<div className='w-1/3'>
 				<a className='' href="#" alt="" target="_blank">
 					<div class="card-3d">
@@ -21,8 +21,8 @@ const Home = () => {
 				</a>
 			</div>
 			<div className='w-2/3'>
-				<h1 className="text-[40px] text-realWhite-100">{info.firstName} {info.lastName}</h1>
-				<h2 className='text-[32px]'>I'm   
+				<h1 className="text-6xl font-black text-realWhite-100">{info.firstName} {info.lastName}</h1>
+				<h2 className='text-2xl'>I'm <span> </span>   
 					<Typed
 						strings={[
 							" Full Stack Developer",
@@ -37,7 +37,7 @@ const Home = () => {
 				<h5 className='text-justify tracking-wider mt-6 leading-8'>{info.desk}</h5>
 				<div className='mt-6'>
 					{info.socials.map((social, index) => (
-						<a key={index} href={social.link}><span class="icon-social mx-2"><ion-icon name={social.icon}></ion-icon></span></a>
+						<a className='link-icon-social' key={index} href={social.link}><span class="icon-social mx-2"><ion-icon name={social.icon}></ion-icon></span></a>
 					))}
 				</div>
 			</div>

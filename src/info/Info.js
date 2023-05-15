@@ -26,6 +26,7 @@ export const info = {
     firstName: "BAIT",
     lastName: "ALMAQDIS",
     desk: "Saya merupakan pelajar asal Sulawesi Selatan yang melanjutkan pendidikan sebagai mahasiswa di Kota bekasi. Saya sudah suka bermain komputer sejak kecil, hingga saat ini tetap mendalami bidang tersebut.",
+    deskLengkap: "Saya merupakan pelajar asal Sulawesi Selatan yang melanjutkan pendidikan sebagai mahasiswa di Kota bekasi. Saya sudah suka bermain komputer sejak kecil, hingga saat ini tetap mendalami bidang tersebut. tujuan saya merantau ke pulau jawa karena pendidikan tekhnologi di pulau jawa selangkah lebih maju dibandingkan pulau tempat kelahiran saya.",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -142,6 +143,98 @@ export const info = {
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock5
+        }
+    ],
+    identitas: [
+        {
+            title: "Usia",
+            value: "21 Tahun",
+        },
+        {
+            title: "TTL",
+            value: "Wotu, 31 Agustus 2001",
+        },
+        {
+            title: "Agama",
+            value: "Islam",
+        },
+        {
+            title: "Jurusan",
+            value: "Ilmu Komputer/Informatika",
+        },
+        {
+            title: "Semester",
+            value: "Semester 6",
+        },
+        {
+            title: "Kampus",
+            value: "Universitas Bina Sarana Informatika",
+        },
+        {
+            title: "Alamat",
+            value: "Wotu, Luwu Timur, Sulawesi Selatan",
+        },
+        {
+            title: "Domisili",
+            value: "Jl. Binangun, Kaliabang tengah, Kota Bekasi",
+        }
+    ],
+    skillProgramming: [
+        {
+            title: "HTML",
+            value: 90,
+        },
+        {
+            title: "CSS",
+            value: 90,
+        },
+        {
+            title: "Javascript",
+            value: 70,
+        },
+        {
+            title: "PHP",
+            value: 80,
+        },
+        {
+            title: "Python",
+            value: 60,
+        },
+        {
+            title: "Native",
+            value: 90,
+        },
+        {
+            title: "CodeIgniter",
+            value: 75,
+        },
+        {
+            title: "Laravel",
+            value: 75,
+        },
+        {
+            title: "Wordpress",
+            value: 90,
+        },
+        {
+            title: "Flutter(Dart)",
+            value: 50,
+        },
+        {
+            title: "Database",
+            value: 80,
+        },
+        {
+            title: "cPanel",
+            value: 70,
+        },
+        {
+            title: "ReactJs",
+            value: 60,
+        },
+        {
+            title: "Tailwind Css",
+            value: 60,
         }
     ]
 }
