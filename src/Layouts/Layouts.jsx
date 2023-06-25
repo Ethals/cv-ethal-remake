@@ -15,6 +15,7 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import PinchIcon from '@mui/icons-material/Pinch';
 import SchoolIcon from '@mui/icons-material/School';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import { FaBars }from "react-icons/fa";
 
@@ -64,13 +65,13 @@ const Layouts = ({children}) => {
 	];
 	return (
 		<div className="adminx-container">
-			<nav class="navbar navbar-expand justify-content-between fixed-top">
+			<nav class="navbar navbar-expand justify-content-between fixed-top px-4">
 				<a class="navbar-brand mb-0 h1 d-none d-md-block" href="index.html">
 					<img src="./dist/img/logo.png" class="navbar-brand-image d-inline-block align-top mr-2" alt=""/>
-					CV Ethals
+					CV Ethals 3
 				</a>
-				<div class="d-flex flex-1 d-block d-md-none">
-					CV Ethals
+				<div class="flex d-md-none">
+					Ethals's CV
 				</div>
 				<ul class="navbar-nav d-flex justify-content-end mr-2">
 					<a href="#" class="sidebar-toggle ml-3 black-hover">
@@ -95,11 +96,18 @@ const Layouts = ({children}) => {
 						</li>
 						<li className="sidebar-nav-item"><h5 className="px-10 pt-10 mt-8 text-sm text-realWhite-100"><span className="font-primary">&copy;</span> 2023 by <a href="">Ethalsss</a></h5></li>
 				</ul>
+				<ul class="navbar-nav d-flex justify-content-end mr-2 d-md-none absolute top-[50%] left-[80%]">
+					<a href="#" class="sidebar-toggle ml-3 black-hover">
+						<span class="sidebar-nav-name">
+						<ArrowBackIcon/>
+						</span>
+					</a>
+				</ul>
 			</div>
 
-			<div class="adminx-content flex">
-				<div class="container-fluid flex">
-					<main className="flex">{children}</main>
+			<div class="adminx-content max-md:px-0 flex">
+				<div class="container-fluid max-md:px-0 flex">
+					<main className="max-md:px-0 flex">{children}</main>
 				</div>
 			</div>
 			

@@ -43,12 +43,14 @@
 
 		<!-- bagian template layout -->
 		<link rel="stylesheet" type="text/css" href="./css/adminx.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="./css/progress.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="./css/adminx_edit.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="./css/timeline.css" media="screen" />
 
 		<!-- Scroll animation -->
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-		
+		<link href="js/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
@@ -69,6 +71,9 @@
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script> AOS.init(); </script>
 
+	<script src="js/lib/isotope/isotope.pkgd.min.js"></script>
+	<script src="js/lib/lightbox/js/lightbox.min.js"></script>
+
 	<!-- Skills -->
 	<!-- <script>
 		$('.skill').waypoint(function () {
@@ -77,5 +82,19 @@
 			});
 		}, {offset: '80%'});
 	</script> -->
+
+	<script>
+		// Portfolio isotope and filter
+		var portfolioIsotope = $('.portfolio-container').isotope({
+			itemSelector: '.portfolio-item',
+			layoutMode: 'fitRows'
+		});
+		$('#portfolio-flters li').on('click', function () {
+			$("#portfolio-flters li").removeClass('active');
+			$(this).addClass('active');
+
+			portfolioIsotope.isotope({filter: $(this).data('filter')});
+		});
+  	</script>
 	</body>
 </html>

@@ -134,6 +134,10 @@ ion-icon:hover {
     border-radius: 0 0 20px 20px;
 }
 
+.adminx-container .navbar {
+    background-color: #000;
+}
+
 @media (min-width: 768px) {
     .navbar {
         display: none;
@@ -141,7 +145,7 @@ ion-icon:hover {
 }
 
 .adminx-container .navbar {
-    box-shadow: 2px -1px 10px 2px #b66dff7d;
+    box-shadow: 2px -1px 10px 2px #242424;
 }
 
 /* Batas Content ================================================================ */

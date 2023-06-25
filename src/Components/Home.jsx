@@ -9,19 +9,19 @@ import Typed from "react-typed";
 
 const Home = () => {
 	return (
-		<div className='my-auto mx-16 flex gap-x-6' data-aos="fade-right" data-aos-duration="1200">
-			<div className='w-1/3'>
+		<div className='my-auto mx-6 lg:mx-16 grid lg:flex gap-x-6' data-aos="fade-right" data-aos-duration="1200">
+			<div className='w-full lg:w-1/3'>
 				<a className='' href="#" alt="" target="_blank">
 					<div class="card-3d">
-						<div class="wrapper">
+						<div class="wrapper max-lg:top-0 max-lg:h-[100%] lg:w-[100%]">
 							<img src={self} class="cover-image rounded-[50%;] w-[300px]" />
 						</div>
-						<img src={bait} class="character" />
+						<img src={bait} class="character max-lg:top-0 max-lg:h-[100%] lg:w-[100%]" />
 					</div>
 				</a>
 			</div>
-			<div className='w-2/3'>
-				<h1 className="text-6xl font-black text-realWhite-100">{info.firstName} {info.lastName}</h1>
+			<div className='w-full lg:w-2/3'>
+				<h1 className="text-5xl lg:text-6xl max-lg:mt-10 font-black text-realWhite-100">{info.firstName} {info.lastName}</h1>
 				<h2 className='text-2xl'>I'm <span> </span>   
 					<Typed
 						strings={[

@@ -6,18 +6,24 @@ function Skill({width}) {
 	// const bar = 'w-[25%] skill-per css text-${info.firstName}', {info,firstName};
 
 	return (
-		<div className='m-8' data-aos="fade-right" data-aos-duration="1200">
-			Skill ------------------------------------
-			
-			<div className="skill-box">
-				<span className="title">CSS</span>
-				<div className="skill-bar">
-					<span className={bar} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-						<span className="tooltip-bar">80%</span>
-					</span>
+		<div className='mx-0 my-auto md:px-10 min-w-[320px] md:min-w-[490px] lg:min-w-[768px] xl:min-w-[1024px] 2xl:min-w-[1280px]' data-aos="fade-right" data-aos-duration="1200">
+			<div className='text-left mb-4 border-bottom-line'>
+				<h2 className='title-halaman max-md:mt-16 text-3xl text-realWhite-100'>Keahlian</h2>
+
+				<div className='grid lg:grid-cols-2 gap-x-6'>
+					{info.skillsProgramming.map((skillProgramming, index) => (
+						<div className="skill-box py-2" key={index}>
+							<span className="title">{skillProgramming.title}</span>
+							<div className="skill-bar">
+								<span className={skillProgramming.style}>
+									<span className="tooltip-bar text-xl">{skillProgramming.value} <span className="font-primary">%</span></span>
+								</span>
+							</div>
+						</div>
+					))}
+
 				</div>
 			</div>
-
 		</div>
 	);
 };
@@ -29,6 +35,8 @@ export default Skill;
 
 // import React, { useEffect } from 'react';
 // import Waypoint from 'react-waypoint';
+
+//aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
 
 // function SkillBar() {
 //   useEffect(() => {

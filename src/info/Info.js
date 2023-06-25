@@ -179,61 +179,75 @@ export const info = {
             value: "Jl. Binangun, Kaliabang tengah, Kota Bekasi",
         }
     ],
-    skillProgramming: [
+    skillsProgramming: [
         {
             title: "HTML",
             value: 90,
+            style: "skill-per sub w-[90%]",
         },
         {
             title: "CSS",
+            style: "skill-per sub w-[90%]",
             value: 90,
         },
         {
             title: "Javascript",
+            style: "skill-per sub w-[70%]",
             value: 70,
         },
         {
             title: "PHP",
+            style: "skill-per sub w-[80%]",
             value: 80,
         },
         {
             title: "Python",
+            style: "skill-per sub w-[60%]",
             value: 60,
         },
         {
             title: "Native",
+            style: "skill-per sub w-[90%]",
             value: 90,
         },
         {
             title: "CodeIgniter",
+            style: "skill-per sub w-[75%]",
             value: 75,
         },
         {
             title: "Laravel",
+            style: "skill-per sub w-[75%]",
             value: 75,
         },
         {
             title: "Wordpress",
+            style: "skill-per sub w-[90%]",
             value: 90,
         },
         {
             title: "Flutter(Dart)",
+            style: "skill-per sub w-[50%]",
             value: 50,
         },
         {
             title: "Database",
+            style: "skill-per sub w-[50%]",
             value: 80,
         },
         {
             title: "cPanel",
+            style: "skill-per sub w-[70%]",
             value: 70,
         },
         {
             title: "ReactJs",
+            style: "skill-per sub w-[60%]",
             value: 60,
         },
         {
             title: "Tailwind Css",
+            style: "skill-per sub w-[60%]",
             value: 60,
         }
     ]
