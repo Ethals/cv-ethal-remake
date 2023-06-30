@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/n1606479/public_html/ethalsss.site/cv-v2.ethalsss.site
+    - /bin/cp -R build $DEPLOYPATH
