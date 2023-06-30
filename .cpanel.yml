@@ -2,13 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/n1606479/public_html/ethalsss.site/cv-v2.ethalsss.site
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R icons $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R static $DEPLOYPATH
-    - /bin/cp 404.html $DEPLOYPATH
-    - /bin/cp asset-manifest.json $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp manifest.json $DEPLOYPATH
-    - /bin/cp robots.txt $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R build $DEPLOYPATH
