@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/n1606479/public_html/ethalsss.site/cv-v2.ethalsss.site
+    - export DEPLOYPATH=/home/n1606479/public_html/ethalsss.site/cv-v2.ethalsss.site/
     - /bin/cp 404.html $DEPLOYPATH
     - /bin/cp asset-manifest.json $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
