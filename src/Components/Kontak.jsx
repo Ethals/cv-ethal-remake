@@ -10,15 +10,15 @@ import p2 from "../img/p2.jpg";
 function Kontak() {
 
 	return (
-		<div className='mx-auto my-8 p-4'>
+		<div className='m-auto p-4'>
 			<div data-aos="fade-right" data-aos-duration="1200">
 				
 				<div className='mb-4 border-bottom-line'>
-					<h5 className='text-justify tracking-wider text-sm leading-8 mb-4'>{info.deskLengkap}</h5>
+					<h5 className='text-justify tracking-wider text-sm leading-8 mb-4 hidden'>{info.deskLengkap}</h5>
 				</div>
 				<div className='mb-4 border-bottom-line'>
 					<div className='text-left text-sm leading-8 mb-4'>
-						<ul className='grid lg:grid-cols-2 '>
+						<ul className='grid lg:grid-cols-2 gap-16'>
 							<li className='w-full'>
 								<span className='mr-3 inline-block text-realWhite-100 font-semiBold'>Nomor WhatsApp :</span>
 								<span>082149166762</span>
