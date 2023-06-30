@@ -53,33 +53,33 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'logo-facebook',
-            label: 'facebook'
+            link: "https://api.whatsapp.com/send?phone=6282149166762&text=Halo",
+            icon: 'logo-whatsapp',
+            label: 'whatsapp'
         },
         {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/ethalsss/",
             icon: 'logo-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/Ethals",
             icon: "logo-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/bait-almaqdis-281286246",
             icon: "logo-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
-            icon: "logo-twitter",
-            label: 'twitter'
+            link: "https://www.youtube.com/channel/UCIzjShGex2HpRIUqCBUobpA",
+            icon: "logo-youtube",
+            label: 'youtube'
         },
         {
             link: "https://twitter.com",
-            icon: "logo-youtube",
+            icon: "logo-twitter",
             label: 'twitter'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!

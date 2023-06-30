@@ -9,11 +9,12 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import PhpIcon from '@mui/icons-material/Php';
 
 function Pengalaman() {
 	return (
@@ -23,76 +24,76 @@ function Pengalaman() {
 			<Timeline position="alternate">
 
 				<TimelineItem>
-					<TimelineOppositeContent sx={{ m: 'auto 0' }} align="right" variant="none" className="max-md:text-xs"> Feb 2023 - Saat ini · 5 bulan</TimelineOppositeContent>
+					<TimelineOppositeContent sx={{ m: 'auto 0' }} align="right" variant="none" className="max-md:text-xs text-realWhite-100"> Feb 2023 - Juni 2023 · 5 bulan</TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineConnector />
 							<TimelineDot>
-								<FastfoodIcon />
+								<LaptopMacIcon />
 							</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: '12px', px: 2 }} className="my-4">
-						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm">Full Stack Developer - Magang</Typography>
+						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm text-realWhite-100">Full Stack Developer - Magang MSIB</Typography>
 						<Typography className="!font-recoleta max-md:!text-xs">Mendevelope product website PT. Indi Technology menggunakan framework laravel, tailwind css dan lainnya.</Typography>
 					</TimelineContent>
 				</TimelineItem>
 
 				<TimelineItem>
-					<TimelineOppositeContent sx={{ m: 'auto 0' }} variant="none" className="max-md:text-xs"> Jan 2023 - Feb 2023 · 2 bln </TimelineOppositeContent>
+					<TimelineOppositeContent sx={{ m: 'auto 0' }} variant="none" className="max-md:text-xs text-realWhite-100"> Jan 2023 - Feb 2023 · 2 bln </TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineConnector />
 							<TimelineDot color="primary">
-								<LaptopMacIcon />
+								<PhpIcon />
 							</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: '12px', px: 2 }} className="my-4">
-						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm">Freelancer FullStack Web Developer</Typography>
+						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm text-realWhite-100">Freelancer FullStack Web Developer</Typography>
 						<Typography className="!font-recoleta max-md:!text-xs">Membuat Front-end & Back-end website profile organisasi dan management Fridays For Future Id. <a href="https://www.fridaysforfutureid.org/" className="underline">Lihat Website</a></Typography>
 					</TimelineContent>
 				</TimelineItem>
 
 				<TimelineItem>
-					<TimelineOppositeContent sx={{ m: 'auto 0' }} align="right" variant="none" className="max-md:text-xs"> Okt 2022 - Nov 2022 · 2 bln </TimelineOppositeContent>
+					<TimelineOppositeContent sx={{ m: 'auto 0' }} align="right" variant="none" className="max-md:text-xs text-realWhite-100"> Okt 2022 - Nov 2022 · 2 bln </TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineConnector />
 							<TimelineDot>
-								<FastfoodIcon />
+								<JavascriptIcon />
 							</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: '12px', px: 2 }} className="my-4">
-						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm">Freelancer FullStack Web Developer</Typography>
+						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm text-realWhite-100">Freelancer FullStack Web Developer</Typography>
 						<Typography className="!font-recoleta max-md:!text-xs">Membuat Front-end & Back-end website Bank sampah Hanami. <a href="https://banksampahbambuapus02.org/" className="underline">Lihat Website</a></Typography>
 					</TimelineContent>
 				</TimelineItem>
 
 				<TimelineItem>
-					<TimelineOppositeContent sx={{ m: 'auto 0' }} variant="none" className="max-md:text-xs"> Mar 2020 - Mei 2022 · 2 thn 3 bln </TimelineOppositeContent>
+					<TimelineOppositeContent sx={{ m: 'auto 0' }} variant="none" className="max-md:text-xs text-realWhite-100"> Mar 2020 - Mei 2022 · 2 thn 3 bln </TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineConnector />
 							<TimelineDot color="primary">
-								<LaptopMacIcon />
+								<CssIcon />
 							</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: '12px', px: 2 }} className="my-4">
-						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm">Chief Technology Officer(CTO)</Typography>
+						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm text-realWhite-100">Chief Technology Officer(CTO)</Typography>
 						<Typography className="!font-recoleta max-md:!text-xs">Membuat dan maintenence website dan aplikasi. Bekerja di PT. Master Nusantara Group sebagai Chief Technology Officer(CTO). <a href="" className="underline">Lihat Website</a></Typography>
 					</TimelineContent>
 				</TimelineItem>
 
 				<TimelineItem>
-					<TimelineOppositeContent sx={{ m: 'auto 0' }} align="right" variant="none" className="max-md:text-xs"> Mar 2020 - Mei 2022 · 2 thn 3 bln</TimelineOppositeContent>
+					<TimelineOppositeContent sx={{ m: 'auto 0' }} align="right" variant="none" className="max-md:text-xs text-realWhite-100"> Mar 2020 - Mei 2022 · 2 thn 3 bln</TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineConnector />
 							<TimelineDot>
-								<FastfoodIcon />
+								<HtmlIcon className='text-black'/>
 							</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: '12px', px: 2 }} className="my-4">
-						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm"> Owner Percetakan Lamacca </Typography>
+						<Typography variant="h6" component="span" className="underline !font-recoleta max-md:!text-sm text-realWhite-100"> Owner Percetakan Lamacca </Typography>
 						<Typography className="!font-recoleta max-md:!text-xs">Menjaga dan menjalankan bisnis percetakan. Mengeporasikan Printer, Photocopy, dan lainnya.</Typography>
 					</TimelineContent>
 				</TimelineItem>

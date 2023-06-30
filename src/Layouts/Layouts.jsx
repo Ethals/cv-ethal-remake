@@ -94,7 +94,7 @@ const Layouts = ({children}) => {
 								</NavLink>
 							))}
 						</li>
-						<li className="sidebar-nav-item"><h5 className="px-10 pt-10 mt-8 text-sm text-realWhite-100"><span className="font-primary">&copy;</span> 2023 by <a href="">Ethalsss</a></h5></li>
+						<li className="sidebar-nav-item"><h5 className="px-10 pt-10 mt-8 text-sm text-realWhite-100"><span className="!font-sans">&copy;</span> 2023 by <a href="">Ethalsss</a></h5></li>
 				</ul>
 				<ul class="navbar-nav d-flex justify-content-end mr-2 d-md-none absolute top-[50%] left-[80%]">
 					<a href="#" class="sidebar-toggle ml-3 black-hover">

@@ -13,7 +13,7 @@ function About() {
 						<img className='absolute object-cover object-top w-full h-full relative' src={p2} alt="" />
 					</div>
 					<h3 className='text-2xl mt-4 text-realWhite-100 font-black'>Bait Almaqdis</h3>
-					<h5 className='text-xm mb-4'>Full Stack Developer</h5>
+					<h5 className='text-xm mb-4'>Full Stack Web Developer</h5>
 				</div>
 				<div className='mb-4 border-bottom-line'>
 					<h5 className='text-justify tracking-wider text-sm leading-8 mb-4'>{info.deskLengkap}</h5>

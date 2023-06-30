@@ -38,7 +38,7 @@ function Pencapaian() {
 		<div className='m-8' data-aos="fade-right" data-aos-duration="1200">
 			<div className='grid grid-cols-2 lg:grid-cols-4'>
 				{images.map((src, index) => (
-					<div className='h-[200px] lg:h-[180px] xl:h-[200px] m-2'>
+					<div className='h-[100px] lg:h-[180px] xl:h-[200px] m-2'>
 						<img
 							src={ src }
 							onClick={ () => openImageViewer(index) }

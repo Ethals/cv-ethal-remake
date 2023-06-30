@@ -9,7 +9,7 @@ import Typed from "react-typed";
 
 const Home = () => {
 	return (
-		<div className='my-auto mx-6 lg:mx-16 grid lg:flex gap-x-6' data-aos="fade-right" data-aos-duration="1200">
+		<div className='max-md:!mt-14 my-auto mx-6 lg:mx-16 grid lg:flex gap-x-6' data-aos="fade-right" data-aos-duration="1200">
 			<div className='w-full lg:w-1/3'>
 				<a className='' href="#" alt="" target="_blank">
 					<div class="card-3d">
@@ -21,13 +21,14 @@ const Home = () => {
 				</a>
 			</div>
 			<div className='w-full lg:w-2/3'>
-				<h1 className="text-5xl lg:text-6xl max-lg:mt-10 font-black text-realWhite-100">{info.firstName} {info.lastName}</h1>
-				<h2 className='text-2xl'>I'm <span> </span>   
+				<h1 className="text-4xl lg:text-6xl max-lg:mt-10 font-black text-realWhite-100">{info.firstName} {info.lastName}</h1>
+				<h2 className='text-xl'>I'm <span> </span>   
 					<Typed
 						strings={[
-							" Full Stack Developer",
-							" Software Development",
-							" Subscribers",
+							" Web Developer",
+							" Full-Stack Developer",
+							" Front-End Developer",
+							" Back-End Developer",
 						]}
 						typeSpeed={150}
 						backSpeed={100}
