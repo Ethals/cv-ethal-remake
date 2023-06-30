@@ -10,18 +10,18 @@ function Pencapaian() {
 	const [currentImage, setCurrentImage] = useState(0);
 	const [isViewerOpen, setIsViewerOpen] = useState(false);
 	const images = [
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s1',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s2',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s3',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s4',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s5',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s6',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s7',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s8',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s9',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s10',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s11',
-		'https://cv-v2.ethalsss.site/static/media/sertifikat/s12',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s1',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s2',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s3',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s4',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s5',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s6',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s7',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s8',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s9',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s10',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s11',
+		'https://v2-cv.ethalsss.site/static/media/sertifikat/s12',
 	];
 
 	const openImageViewer = useCallback((index) => {
