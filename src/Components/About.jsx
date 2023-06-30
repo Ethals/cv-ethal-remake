@@ -19,7 +19,7 @@ function About() {
 					<h5 className='text-justify tracking-wider text-sm leading-8 mb-4'>{info.deskLengkap}</h5>
 				</div>
 				<div className='mb-4 border-bottom-line'>
-					<div className='text-left  text-sm leading-8 mb-4'>
+					<div className='text-left text-sm leading-8 mb-4'>
 						<ul className='grid lg:grid-cols-2 '>
 							{info.identitas.map((identitas, index) => (
 								<li className='w-full' key={index}>

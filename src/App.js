@@ -15,7 +15,7 @@ import Skill from "./Components/Skill.jsx";
 const App = () => {
 	return (
 		<div>
-			<BrowserRouter>
+			<BrowserRouter basename={'/'}>
 				<Layouts>
 					<Routes>
 						<Route path={'/'} element={<Home/>}/>

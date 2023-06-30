@@ -53,7 +53,7 @@ const Layouts = ({children}) => {
 			icon: <BusinessCenterIcon/>,
 		},
 		{
-			link:"/pemcapaian",
+			link:"/pencapaian",
 			text: "Pencapaian",
 			icon: <EmojiEventsIcon/>,
 		},

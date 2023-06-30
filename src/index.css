@@ -44,3 +44,8 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+.filtered {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
